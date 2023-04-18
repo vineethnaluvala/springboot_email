@@ -22,7 +22,7 @@ public class SpringBootEmailApplication {
 
 	@EventListener(ApplicationReadyEvent.class)
 	public void triggerMail() throws MessagingException {
-		emailSenderService.sendMailWithAttachment("vineethnaluvala@gmail.com",
+		emailSenderService.sendMailWithAttachment("xxxxxxx@gmail.com",
 				"Hi , please find my resume as an attachment", "Java Developer",
 				"" + "D:\\vini-personal\\documents\\resume\\CV(Vineeth).pdf");
 
